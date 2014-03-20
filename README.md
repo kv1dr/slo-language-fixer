@@ -10,4 +10,5 @@ Prej:
 ![Prej](https://raw.githubusercontent.com/kv1dr/slo-language-fixer/master/prej.png)
 
 Potem:
+
 ![Potem](https://raw.githubusercontent.com/kv1dr/slo-language-fixer/master/potem.png)
