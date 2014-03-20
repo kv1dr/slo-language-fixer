@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="si.kv1dr.slolanguagefixer">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:value="true" android:name="xposedmodule"/>
+        <meta-data android:value="2.1*" android:name="xposedminversion"/>
+        <meta-data android:value="Skrajša napis na stikalih za vklop in izklop." android:name="xposeddescription"/>
+
+    </application>
+
+</manifest>
