@@ -1,0 +1,10 @@
+<resources>
+        <string name="title_activity_settings" translatable="false">Slovenian Language Fixer</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_switchon_name">NotTranslatedYet</string>
+    <string name="pref_default_switchon_name">ON</string>
+
+    <string name="pref_title_switchoff_name">NotTranslatedYet</string>
+    <string name="pref_default_switchoff_name">OFF</string>
+</resources>

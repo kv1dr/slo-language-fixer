@@ -1,15 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="si.kv1dr.slolanguagefixer">
+    package="si.kv1dr.slolanguagefixer"
+    android:versionCode="2"
+    android:versionName="1.0.1">
 
-    <application android:allowBackup="true"
-        android:label="@string/app_name"
+    <application
+        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/AppTheme">
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="2.1*" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Skrajša napis na stikalih za vklop in izklop." />
 
-        <meta-data android:value="true" android:name="xposedmodule"/>
-        <meta-data android:value="2.1*" android:name="xposedminversion"/>
-        <meta-data android:value="Skrajša napis na stikalih za vklop in izklop." android:name="xposeddescription"/>
-
+        <activity
+            android:name="si.kv1dr.slolanguagefixer.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:icon="@drawable/ic_launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

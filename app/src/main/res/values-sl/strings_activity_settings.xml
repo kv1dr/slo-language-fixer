@@ -1,0 +1,9 @@
+<resources>
+    <string name="pref_header_general">Osnovno</string>
+
+    <string name="pref_title_switchon_name">Napis na stikalu za vklop</string>
+    <string name="pref_default_switchon_name">VKL.</string>
+
+    <string name="pref_title_switchoff_name">Napis na stikalu za izklop</string>
+    <string name="pref_default_switchoff_name">IZKL.</string>
+</resources>
