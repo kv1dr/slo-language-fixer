@@ -15,7 +15,7 @@ Potem:
 ![Potem](https://raw.githubusercontent.com/kv1dr/slo-language-fixer/master/potem.png)
 
 Trenutni hrošči:
- - na nekaterih telefonih program ne deluje
+ - ni hroščev
 
 Changelog:
 ==================
