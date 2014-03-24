@@ -19,6 +19,10 @@ Trenutni hrošči:
 
 Changelog:
 ==================
+1.1
+- Dodano obvestilo(da je potrebno napravo ponovno zagnati) ob spremembi nastavitev.
+- Onemogočene samodejne velike začetnice za vsako besedo v nastavitvah
+
 1.0.2 (BETA)
 - - popravljen hrošč, ko se je program sesul ob zagonu(in zato ni deloval na nekaterih napravah). Sedaj bi moralo delovati na vseh napravah
 
