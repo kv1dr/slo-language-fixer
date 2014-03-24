@@ -15,10 +15,13 @@ Potem:
 ![Potem](https://raw.githubusercontent.com/kv1dr/slo-language-fixer/master/potem.png)
 
 Trenutni hrošči:
- - na nekaterih telefonih program ne deluje
+ - ni hroščev
 
 Changelog:
 ==================
+1.0.2 (BETA)
+- - popravljen hrošč, ko se je program sesul ob zagonu(in zato ni deloval na nekaterih napravah). Sedaj bi moralo delovati na vseh napravah
+
 1.0.1 (BETA)
 - Dodane nastavitve za spreminjanje besedila na stikalih(po spremembi je potreben ponovni zagon naprave)
 - Dodane ikone
