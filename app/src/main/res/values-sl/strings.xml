@@ -1,2 +1,4 @@
 <resources>
+    <string name="infoDialogTitle">Obvestilo</string>
+    <string name="infoDialogText">Za uveljavitev sprememb je potreben ponovni zagon naprave.</string>
 </resources>
