@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Slovenian Language Fixer</string>
+    <string name="app_name" translatable="false">ON/OFF Switches Name Changer</string>
     <string name="infoDialogTitle">Notice</string>
     <string name="infoDialogText">Reboot is required for changes to take effect.</string>
 </resources>

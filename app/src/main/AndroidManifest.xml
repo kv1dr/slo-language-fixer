@@ -15,7 +15,7 @@
             android:value="2.1*" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Skrajša napis na stikalih za vklop in izklop." />
+            android:value="Changes the string on ON/OFF switches." />
 
         <activity
             android:name="si.kv1dr.slolanguagefixer.SettingsActivity"
