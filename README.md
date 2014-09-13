@@ -1,7 +1,7 @@
 ON/OFF Switches Name Changer
 ==================
 
-Play store link: https://play.google.com/store/apps/details?id=si.kv1dr.slolanguagefixer
+
 
 Changelog:
 ==================
