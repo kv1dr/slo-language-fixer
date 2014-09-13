@@ -1,7 +1,9 @@
 ON/OFF Switches Name Changer
 ==================
 
+Changes the strings on ON/OFF switches to whatever you want. This is especially useful, when you use the language, that have the really long strings on those ON/OFF switches.
 
+Play store link: https://play.google.com/store/apps/details?id=si.kv1dr.slolanguagefixer
 
 Changelog:
 ==================
