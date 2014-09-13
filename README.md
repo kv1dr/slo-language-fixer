@@ -1,24 +1,16 @@
-Slovenian language fixer
+ON/OFF Switches Name Changer
 ==================
 
-This app is for slovenian users only!
-
-(SLO) Skrajša napis "VKLOPLJENO" in "IZKLOPLJENO" na stikalih za vklop in izklop, saj se zaradi izredno dolgih besed 
-ostalega besedila v programih ne vidi.
-
-Prej:
-
-![Prej](https://raw.githubusercontent.com/kv1dr/slo-language-fixer/master/prej.png)
-
-Potem:
-
-![Potem](https://raw.githubusercontent.com/kv1dr/slo-language-fixer/master/potem.png)
-
-Trenutni hrošči:
- - ni hroščev
+Play store link: https://play.google.com/store/apps/details?id=si.kv1dr.slolanguagefixer
 
 Changelog:
 ==================
+1.2
+- International release (the app is now avaliable to everyone, previously, it was limited to slovenian users only)
+- New icon
+- New app name
+- Published on Google play
+
 1.1
 - Dodano obvestilo(da je potrebno napravo ponovno zagnati) ob spremembi nastavitev.
 - Onemogočene samodejne velike začetnice za vsako besedo v nastavitvah
