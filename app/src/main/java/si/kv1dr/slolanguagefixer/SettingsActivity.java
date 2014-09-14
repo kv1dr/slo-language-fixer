@@ -26,7 +26,7 @@ import java.util.List;
  * href="http://developer.android.com/guide/topics/ui/settings.html">Settings
  * API Guide</a> for more information on developing a Settings UI.
  */
-public class SettingsActivity extends PreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
+public class SettingsActivity extends PreferenceActivity {
     /**
      * Determines whether to always show the simplified settings UI, where
      * settings are presented in a single list. When false, settings are shown
@@ -34,29 +34,54 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
      * shown on tablets.
      */
     private static final boolean ALWAYS_SIMPLE_PREFS = false;
-
+    private static Context context;
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-
         setupSimplePreferencesScreen();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        context=this;
+        SharedPreferences.OnSharedPreferenceChangeListener prefListener =
+                new SharedPreferences.OnSharedPreferenceChangeListener() {
+                    public void onSharedPreferenceChanged(SharedPreferences prefs,
+                                                          String key) {
+                        new AlertDialog.Builder(context)
+                                .setTitle(R.string.infoDialogTitle)
+                                .setMessage(R.string.infoDialogText)
+                                .setPositiveButton(android.R.string.ok,null)
+                                .setIcon(android.R.drawable.ic_dialog_info)
+                                .show();
+                    }
+                };
         // Set up a listener whenever a key changes
         getPreferenceScreen().getSharedPreferences()
-                .registerOnSharedPreferenceChangeListener(this);
+                .registerOnSharedPreferenceChangeListener(prefListener);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        context=this;
+        SharedPreferences.OnSharedPreferenceChangeListener prefListener =
+                new SharedPreferences.OnSharedPreferenceChangeListener() {
+                    public void onSharedPreferenceChanged(SharedPreferences prefs,
+                                                          String key) {
+                        new AlertDialog.Builder(context)
+                                .setTitle(R.string.infoDialogTitle)
+                                .setMessage(R.string.infoDialogText)
+                                .setPositiveButton(android.R.string.ok,null)
+                                .setIcon(android.R.drawable.ic_dialog_info)
+                                .show();
+                    }
+                };
         // Unregister the listener whenever a key changes
         getPreferenceScreen().getSharedPreferences()
-                .unregisterOnSharedPreferenceChangeListener(this);
+                .unregisterOnSharedPreferenceChangeListener(prefListener);
     }
 
     /**
@@ -170,7 +195,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                         .getString(preference.getKey(), ""));
     }
 
-    @Override
+    /* @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String s) {
         new AlertDialog.Builder(this)
                 .setTitle(R.string.infoDialogTitle)
@@ -178,7 +203,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                 .setPositiveButton(android.R.string.ok,null)
                 .setIcon(android.R.drawable.ic_dialog_info)
                 .show();
-    }
+    } */
 
     /**
      * This fragment shows general preferences only. It is used when the
