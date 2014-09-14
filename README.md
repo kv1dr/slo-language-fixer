@@ -7,6 +7,9 @@ Play store link: https://play.google.com/store/apps/details?id=si.kv1dr.slolangu
 
 Changelog:
 ==================
+1.2.1
+- Little bug fixed
+
 1.2
 - International release (the app is now avaliable to everyone, previously, it was limited to slovenian users only)
 - New icon
