@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ON/OFF Switches Name Changer</string>
+    <string name="infoDialogText">Je potrebné reštartovať zariadenie aby sa zmeny prejavili.</string>
+    <string name="infoDialogTitle">Upozornenie</string>
+    <string name="pref_default_switchoff_name">Vyp</string>
+    <string name="pref_default_switchon_name">Zap</string>
+    <string name="pref_header_general">Všeobecné</string>
+    <string name="pref_title_switchoff_name">Text použitý pri vypnutom vypínači</string>
+    <string name="pref_title_switchon_name">Text použitý pri zapnutom vypínači</string>
+    <string name="title_activity_settings">ON/OFF Switches Name Changer</string>
+</resources>
