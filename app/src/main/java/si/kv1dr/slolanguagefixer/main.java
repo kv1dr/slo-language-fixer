@@ -14,7 +14,7 @@ public class main implements IXposedHookZygoteInit {
     @Override
     public void initZygote(IXposedHookZygoteInit.StartupParam startupParam) throws Throwable {
         prefs = new XSharedPreferences(IME_PAKETA); //nastavitve
-        XResources.setSystemWideReplacement("android", "string", "capital_on", prefs.getString("switchon_text", XResources.getSystem().getString(R.string.pref_default_switchon_name)));
-        XResources.setSystemWideReplacement("android", "string", "capital_off", prefs.getString("switchoff_text", XResources.getSystem().getString(R.string.pref_default_switchoff_name)));
+        XResources.setSystemWideReplacement("android", "string", "capital_on", prefs.getString("switchon_text", "JUP"));
+        XResources.setSystemWideReplacement("android", "string", "capital_off", prefs.getString("switchoff_text", "NOPE"));
     }
 }
