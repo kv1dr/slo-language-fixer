@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ON/OFF Switches Name Changer</string>
+    <string name="infoDialogTitle">Remarque</string>
+    <string name="infoDialogText">Un redémarrage est nécessaire pour que les changements prennent effet.</string>
+    <string name="title_activity_settings">ON/OFF Switches Name Changer</string>
+    <string name="pref_header_general">Général</string>
+    <string name="pref_title_switchon_name">Texte sur l\'interrupteur oui</string>
+    <string name="pref_default_switchon_name">OUI</string>
+    <string name="pref_title_switchoff_name">Texte sur l\'interrupteur non</string>
+    <string name="pref_default_switchoff_name">NON</string>
+</resources>
