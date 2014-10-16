@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 19
-        versionCode 6
-        versionName "1.2.1"
+        versionCode 7
+        versionName "1.2.2"
     }
     buildTypes {
         release {
@@ -19,7 +19,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.0.0'
     provided files('XposedBridgeApi.jar')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
