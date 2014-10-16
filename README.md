@@ -7,6 +7,10 @@ Play store link: https://play.google.com/store/apps/details?id=si.kv1dr.slolangu
 
 Changelog:
 ==================
+1.2.3
+- Some changes reverted
+- Added french translation(thanks to @Micks29)
+
 1.2.2
 - Added slovakian translation(thanks @Ja_som)
 - Smaller apk size(Removed support library, because it was not needed at all. Thanks again @Ja_som for a suggestion)
